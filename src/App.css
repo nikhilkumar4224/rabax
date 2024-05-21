@@ -1,0 +1,390 @@
+/* styles.css */
+
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li, nav, footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body fills the entire viewport height */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+nav {
+  background-color: #ffffff;
+  color: #0a0909;
+  height: 76px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #353131;
+}
+.logo {
+  margin-right: 20px; /* Adjust margin as needed */
+  margin-left: 20px;
+}
+
+.logo-img {
+  width: 65px; /* Adjust width as needed */
+  height: 45px ; /* Maintain aspect ratio */
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('/Users/rajkumardandu/Downloads/Documents/Projects/rabax/src/images/solar.avif');
+  background-size: cover;
+  background-position: center;
+  color: #3c2c2c;
+  text-align: center;
+  padding: 200px 100px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 5px;
+  color: #131212;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Services Section Styles */
+.services {
+  background-color: #ebe4e4;
+  padding: 50px 20px;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.services ul li {
+  margin-bottom: 10px;
+}
+
+/* About Section Styles */
+.about {
+  background-color: #eee4e4;
+  padding: 50px 20px;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Projects Section Styles */
+.projects {
+  background-color: #f3eded;
+  padding: 50px 20px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Contact Section Styles */
+.contact {
+  background-color: #e9dbdb;
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto; /* Push the footer to the bottom of the viewport */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li {
+  margin: 0 10px; /* Adjust spacing between footer links */
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+/* Enquire.css */
+
+.enquire-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.enquire-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.enquire-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Home.css */
+
+.home {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #f7f7f7;
+  margin-bottom: 40px; /* Add margin to separate sections */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #e67e22;
+}
+
+.savings-section {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+
+/* SavingsCalculator.css */
+
+.savings-calculator-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.savings-calculator-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.savings-calculator-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.savings-calculator-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Adjust the gap between the form and the results */
+}
+
+.savings-calculator-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  color: #666;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.calculate-button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.calculate-button:hover {
+  background-color: #e67e22;
+}
+
+.results {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.result-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.result-item span {
+  font-size: 16px;
+  color: #666;
+}
+
+.result-item strong {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.actions {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
