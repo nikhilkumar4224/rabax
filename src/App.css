@@ -58,7 +58,7 @@ nav ul li a {
 
 /* Hero Section Styles */
 .hero {
-  background-image: url('/Users/rajkumardandu/Downloads/Documents/Projects/rabax/src/images/solar.avif');
+  background-image: url('/rabax/src/images/solar.avif');
   background-size: cover;
   background-position: center;
   color: #3c2c2c;
